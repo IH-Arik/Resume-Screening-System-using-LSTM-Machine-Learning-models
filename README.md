@@ -175,7 +175,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any queries or collaboration, please reach out through:
 - GitHub Issues
-- Email: [your-email@example.com]
+- Email: [ittsafarik@gmail.com]
 
 ## 🔮 Future Enhancements
 
