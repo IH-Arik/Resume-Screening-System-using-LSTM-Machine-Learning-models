@@ -5,6 +5,7 @@ A comprehensive machine learning package for automatic resume classification
 using advanced NLP techniques, LSTM neural networks, and ensemble learning.
 """
 
+import utils.session
 __version__ = "1.0.0"
 __author__ = "Resume Screening Team"
 __email__ = "contact@example.com"

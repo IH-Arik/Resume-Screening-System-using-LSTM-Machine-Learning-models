@@ -25,7 +25,6 @@ MANIFEST
 .ipynb_checkpoints
 
 # Environment variables
-.env
 .venv
 env/
 venv/
@@ -34,7 +33,6 @@ env.bak/
 venv.bak/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -86,3 +84,9 @@ graph.pbtxt
 *.model
 *.bin
 *.onnx
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules

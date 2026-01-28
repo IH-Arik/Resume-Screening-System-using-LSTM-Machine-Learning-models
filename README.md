@@ -2,11 +2,11 @@
 
 A comprehensive machine learning project for automatic resume classification and screening using advanced NLP techniques, LSTM neural networks, and ensemble learning methods.
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project implements multiple machine learning approaches to automatically categorize resumes into different job domains, helping HR professionals streamline the recruitment process. The system achieves exceptional accuracy through ensemble methods combining traditional ML algorithms with deep learning approaches.
 
-## 📊 Features
+##  Features
 
 - **Multi-Model Approach**: Implements LSTM, LightGBM, XGBoost, CatBoost, and ensemble stacking
 - **Advanced NLP Processing**: Text cleaning, stopwords removal, lemmatization, and TF-IDF vectorization
@@ -14,7 +14,7 @@ This project implements multiple machine learning approaches to automatically ca
 - **External Validation**: Testing on synthetic resumes to ensure model generalization
 - **Professional Visualizations**: ROC curves, correlation matrices, and performance comparisons
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Resume screening with lstm/
@@ -31,7 +31,7 @@ Resume screening with lstm/
 └── .gitignore               # Git ignore file
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Machine Learning Libraries
 - **Scikit-learn**: Data preprocessing, model evaluation, and traditional ML algorithms
@@ -47,8 +47,7 @@ Resume screening with lstm/
 ### Data Visualization
 - **Matplotlib**: Plotting and visualization
 - **Seaborn**: Statistical data visualization
-
-## 📈 Model Performance
+##  Model Performance
 
 The ensemble stacking model achieves outstanding performance:
 - **Accuracy**: 100%
@@ -63,7 +62,7 @@ Individual model performances:
 - **XGBoost**: 99.48% accuracy
 - **LSTM**: High accuracy with deep learning approach
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -113,7 +112,7 @@ print(f"Predicted Category: {result['category']}")
 print(f"Confidence: {result['confidence']:.4f}")
 ```
 
-## 📁 Dataset
+##  Dataset
 
 The project uses the **UpdatedResumeDataSet.csv** containing:
 - **Resume**: Raw resume text
@@ -121,7 +120,7 @@ The project uses the **UpdatedResumeDataSet.csv** containing:
 
 Categories include: Data Science, HR, Advocate, Arts, Automation Testing, Mechanical Engineering, Sales, Health and fitness, Civil Engineer, Java Developer, Business Analyst, SAP Developer, Automation Testing, Electrical Engineering, Operations Manager, Testing, DevOps Engineer, Network Security Engineer, PMO, Database, Hadoop, ETL Developer, DotNet Developer, Web Designing, Blockchain.
 
-## 🔧 Model Architecture
+##  Model Architecture
 
 ### Traditional ML Pipeline
 1. **Text Preprocessing**: Cleaning, stopwords removal, lemmatization
@@ -135,7 +134,7 @@ Categories include: Data Science, HR, Advocate, Arts, Automation Testing, Mechan
 3. **LSTM Architecture**: Embedding layer → LSTM → Dense layers
 4. **Training**: Categorical cross-entropy loss with Adam optimizer
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 The models are evaluated using:
 - **Accuracy Score**: Overall classification accuracy
@@ -146,14 +145,14 @@ The models are evaluated using:
 - **Confusion Matrix**: Detailed classification results
 - **MAE**: Mean absolute error for regression metrics
 
-## 🧪 Testing
+##  Testing
 
 The project includes extensive testing with:
 - **Cross-validation**: K-fold validation for robust performance estimation
 - **External Validation**: 20+ synthetic resume examples for generalization testing
 - **Real-world Scenarios**: Various job domains and experience levels
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -161,23 +160,23 @@ The project includes extensive testing with:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Dataset Source**: Kaggle Resume Dataset
 - **Libraries**: Scikit-learn, TensorFlow, LightGBM, XGBoost, CatBoost communities
 - **NLTK**: Natural Language Toolkit for text processing
 
-## 📞 Contact
+##  Contact
 
 For any queries or collaboration, please reach out through:
 - GitHub Issues
 - Email: [ittsafarik@gmail.com]
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Web application interface for real-time resume classification
 - [ ] API endpoint for integration with HR systems
@@ -188,4 +187,4 @@ For any queries or collaboration, please reach out through:
 
 ---
 
-⭐ If you find this project useful, please give it a star!
+ If you find this project useful, please give it a star!
